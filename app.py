@@ -33,7 +33,6 @@ st.markdown("""
 
 
 
-OPEN_AI_APIKEY = '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'
 
 # === OpenAI Setup ===
 client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])  # <-- PUT YOUR API KEY HERE
